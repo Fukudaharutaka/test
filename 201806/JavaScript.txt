@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>【演習１】</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+	
+		<header>
+		　<div class="logo">【演習１】</div>
+		　<ul>
+			 <li>HOME</li>
+			 <li>service</li>
+			 <li>about</li>
+			 <li>contact us</li>
+			 <li>LINK</li>
+		  </ul>
+		</header>
+		
+		<main>
+			<div class="main-contents"></div>
+			<div class="left">ああ</div>
+			<div class="right">いい</div>
+		</main>
+		
+		<footer>
+		 all rights(C) reserved internous.inc, 2015-2018
+		</footer>
+		
+		
+	</body>
+	</html>
+																		
+								
+
+
+document.write("Hello World ");
+document.write("私の名前は田中です。");
+document.write("年齢は25歳です。");
+
+document.write("あいうえお<br>");
+document.write("かきくけこ<br>");
+document.write("さしすせそ<br>");
+
+document.write("月曜日<br>火曜日<br>水曜日");
+
+document.write("<h1>あいうえお</h1>");
+document.write("<p>かきくけこ</p>");
+document.write("さしすせそ")
+
+
+alert("別ページに移動します。");
+confirm("別ページに移動してもいいですか？");
+
+alert("このページを離れようとしています。");
+
+confirm("ログアウトしますか？");
+
+
+
+
+document.write("20170813");
+
+document.write(10.5);
+document.write("<br>");
+document.write(20.3);
+
+document.write(-100);
+document.write("<br>");
+document.write(53+10);
+
+document.write("hello World");
+document.write("<br>");
+document.write("good!!");
+
+document.write("090-1111-2222");
+document.write("電話番号");
+
+
+
+JS4
+
+var a="山本";
+document.write(a);
+
+document.write("<br>");
+
+var number=208;
+document.write(number);
+
+document.write("<br>");
+
+var tell = "090-0000-1234";
+document.write(tell);
+
+document.write("<br>");
+
+var name = "Jody";
+document.write(name);
+
+document.write("<br>");
+
+var name2="高橋さんと田中さん";
+document.write(name2);
+
+document.write("<br>");
+
+var cost="2001";
+document.write(cost + "円");
+
+document.write("<br>");
+
+var month = 12;
+document.write(month + "月");
+var day =25;
+document.write(day +"日");
+var youbi="木";
+document.write(youbi + "曜日");
+
+
+
+JS5
+
+document.write(3*3);
+document.write("<br>");
+
+document.write(4/2);
+document.write("<br>");
+
+var a =5+10;
+document.write(a);
+document.write("<br>");
+
+var b =55-28;
+document.write(b);
+document.write("<br>");
+document.write("<br>");
+
+var c =10*2;
+document.write(c);
+document.write("<br>");
+
+var d ="3+6";
+document.write(d);
+document.write("<br>");
+
+var e ="2+3";
+var f ="4-1";
+document.write(e);document.write("<br>");
+document.write(f);document.write("<br>");
+document.write(f + "=" + e)
+
+document.write("<br>");
+
+var g = 5*5;
+var h ="5*5";
+document.write(h + "=" + g);
+document.write("<br>");
+document.write(b + c)
+
+
+document.write("<br>");
+document.write("<br>");
+
+var abc1 = 10%3;
+document.write(abc1);
+document.write("<br>");
+
+
+var abc2 = 5%2;
+document.write("5÷2のあまりは" + abc2);
+
+document.write("<br>");
+
+var abc3="8%2";
+document.write(abc3);document.write("<br>");
+
+var abc4 = 3%2;
+var abc5 = 1;
+
+document.write(abc4 + "=" + abc5);
+
+
+JS6
+
+var a1 =3;
+document.write(++a1);
+document.write("<br>");
+
+var a2 = 20;
+document.write(++a2);
+document.write("<br>");
+
+
+var a3 = 10;
+
+document.write(++a3);
+document.write("<br>")
+document.write(++a3);document.write("<br>");
+
+var a4 = 5;
+
+document.write(a4++);
+document.write("<br>");
+document.write(a4++);
+document.write("<br>");
+document.write(a4++);
+document.write("<br>");
+document.write("<br>");
+
+var a5 =15;
+document.write(--a5);
+document.write("<br>");
+document.write(--a5);
+document.write("<br>");
+document.write("<br>");
+
+var a6 = 20;
+document.write(a6--);document.write("<br>");
+document.write(a6--);document.write("<br>");
+document.write(a6--);document.write("<br>");
+document.write("<br>");
+
+var a7 = 2;
+
+document.write(a7--);
+document.write(a7--);
+document.write(a7--);document.write("<br>");document.write("<br>");
+
+
+var a8 = 2;
+
+document.write(++a8);
+document.write(a8++);
+document.write("<br>");
+document.write(a8);
+
+
+document.write("<br>");
+document.write("<br>");
+
+var a9 = 1;
+document.write(a9++);
+document.write("<br>");
+document.write(a9++);
+document.write("<br>");
+document.write(a9);
+
+document.write("<br>");
+document.write("<br>");
+
+
+
+ JS-7
+
+var a1 = 2;
+
+if(a1 < 10){
+	document.write("A");}
+
+document.write("<br>");
+					
+var a2 = 10;
+if(a2 <= 10){
+	document.write("B");}
+document.write("<br>");
+
+var a1 = 2;
+	 
+	if(a1 <10){
+		document.write("A");	}
+document.write("<br>");
+
+var a4 = 12;
+if(a4 == 12){
+	document.write("同じ数字");}
+document.write("<br>");
+
+var a5 ="田中";
+if(a5 == "田中"){
+	document.write(a5 + "さんです");}
+document.write("<br>");
+
+var b1 = 100;
+if(b1 >= 100){
+	document.write("100より小さい数です。");}
+document.write("<br>");
+
+var b2 =3;
+if(b2 < 1){
+	document.write("A");}
+else if(b2 > 1){document.write("B");}
+document.write("<br>");
+	
+var b3 = 10;
+if(b3 < 10){
+	document.write("X");
+}else if(b3 > 5){document.write("Y");}
+
+document.write("<br>");
+
+var b4 = 1;
+if(b4 == 0){
+	document.write("数字は０");
+}else if(b4 == 1){
+	document.write("数字は１");
+}else if(b4 == 2){
+	document.write("数字は２");
+}
+
+document.write("<br>");
+
+var b5 = -8;
+if(b5 < 0){document.write("マイナス");
+}else if(b5 >= 1){
+	document.write("プラス");
+}
+document.write("<br>");
+
+var c1 = 10;
+if(c1 < 10){
+	document.write("★");
+}else{document.write("☆");}
+
+document.write("<br>");
+
+var c2 = 5;
+if(c2 > 10){
+	document.write("OK");
+}else{document.write("NG");}
+
+document.write("<br>");
+
+var c3 = "A";
+if(c3 == "B"){
+	document.write("B");
+}else{document.write("その他");
+}
+
+document.write("<br>");
+
+var c4 = 5;
+if(c4 > 0 && c4 < 10){
+	document.write("B");
+}else{document.write("その他");}
+
+document.write("<br>");
+document.write("<br>");
+
+var c5 =10;
+
+if(c5 <= 10 || c5 < 5){
+	document.write("X");
+}else{document.write("Y")
+}
+document.write("<br>");
+document.write("<br>");
+
+
+
+
+・JS-8
+
+
+var a1 = 5;
+
+if(a1 > 0){
+	if(a1 < 10){
+		document.write("A");
+	}
+}
+document.write("<br>");
+
+var a2 = 10;
+if(a2 >= 5){
+	if(a2 <= 20){
+		document.write("B");
+	}
+}
+document.write("<br>");
+
+var a3 = 12;
+
+if(a3 > 0){
+	if(a3 < 10){
+		document.write("A");
+	}else if(a3 > 10){
+		document.write("B");
+	}
+}
+document.write("<br>");
+
+var a4 = 5;
+if(a4 < 3){
+	document.write("A");
+}else if(a4 < 5){
+	document.write("B");
+}else{
+	document.write("C")
+}
+document.write("<br>");
+
+var a5 = 6;
+if(a5 > 10){
+	document.write("A");
+}else if(a5 < 5 || a5==6){
+	document.write("B");
+}else{
+	document.write("C");
+}
+document.write("<br>");
+
+
+var age = 18;
+var seibetsu ="女性";
+
+if(age >= 18){
+	if(seibetsu == "女性"){
+	document.write("Aさん");
+}else if(seibetsu == "男性"){
+	document.write("Bさん");
+}else{
+	document.write("Cさん");
+ }
+}
+document.write("<br>");
+
+var month = 5;
+var day = 28;
+
+if(month <=12){
+	if(day <= 15){
+		document.write("月の前半");
+	}else if(day >= 16){
+		document.write("月の後半");
+	}
+}
+document.write("<br>");
+
+var test1 = 80;
+var test2 = 96;
+
+if(test1 >= 80){
+	if(test2 <= 89){
+		document.write("不合格");
+}else if (test2 >= 90){
+	document.write("合格");
+}
+}
+
+
+JavaScript　9
+
+var a1 = 1;
+switch(a1){
+	case 0:
+		document.write("A");
+		break;
+		
+	case 1:
+		document.write("B");
+		break;
+}
+
+document.write("<br>");
+
+var a2 = 3;
+switch(a2){
+	case 0:document.write("A");
+		break;
+	case 1:document.write("B");
+		break;
+	default:document.write("C");
+}
+
+document.write("<br>");
+
+var a3 = "青";
+switch(a3){
+		case "赤":
+		document.write("赤組");
+		break;
+		case "白":
+		document.write("白組");
+		break;
+		case "青":
+		document.write("青組");
+		break;
+}
+
+document.write("<br>");
+
+var star = "☆";
+switch(star){
+	case "★":document.write("黒い星です");
+		break;
+	case "☆":document.write("白い星です");
+		break;
+	default:document.write("その他の記号です");
+}
+
+document.write("<br>");
+
+var age = 70;
+switch(age){
+	case 70:document.write("喜寿");
+		break;
+	case 80:document.write("米寿");
+		break;
+	default:document.write(age + "歳");
+}
+
+document.write("<br>");
+
+var score = 99;
+switch(score){
+	case 99:document.write(score + "点です！" + "おしい！");
+		break;
+	case 100:document.write("満点です！");
+		break;
+	default:document.write(score + "点です！");
+}
+
+
+
+JavaScript　10
+
+for(var i = 1; i <= 10; i++){
+	document.write(i);
+	document.write("/");
+}
+
+document.write("<br>");
+
+for(var a = 10; a >= 0; a--){
+	document.write(a);
+	document.write("/");
+}
+
+document.write("<br>");
+
+for(var b = 1; b < 7; b++){
+	document.write(b);
+	document.write("<br>");
+}
+
+document.write("<br>");
+
+for(var star = 1; star <5;star++){
+	document.write("★");
+	document.write("<br>")
+}
+
+document.write("<br>");
+
+for(var month = 1; month <= 12; month++){
+	document.write( month);
+	document.write("月/");
+}
+
+document.write("<br>");
+
+for(var age = 18; age <= 99; age++){
+	document.write(age + "歳");
+	document.write("/");
+}
+
+document.write("<br>");
+
+for(var day = 1 ; day <= 31;day++){
+	document.write(day + "日");
+	document.write("/");
+}
+
+document.write("<br>");
+
+for(var num = 1; num <= 40; num++){
+	document.write(num + "番");
+	document.write("/");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											

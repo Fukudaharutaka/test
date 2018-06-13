@@ -1,0 +1,40 @@
+<p>
+<br>
+
+
+
+			
+		<h1>プログラミングに役立つ書籍</h1>
+		<p>2017年1月15日</p>
+			
+		<img src="bookstore.jpg">
+			<p>4eachはインターノウスが提供するオンラインでプログラミングが勉強できるイーラーニングシステムです。</p>
+		<br>
+		<p>記事中身</p>
+		
+			
+		
+		<div class="right1"></div>
+		<ul>
+			人気の記事
+			<li>PHP オススメ本</li>
+			<li>PHP MyAdminの使い方</li>
+			<li>今人気のエディタ Top5</li>
+			<li>HTMLの基礎</li>
+		</ul>
+		<ul>
+			オススメリンク
+			<li>インターノウス株式会社</li>
+			<li>XAMPのダウンロード</li>
+			<li>Eclipseのダウンロード</li>
+			<li>Bracketsのダウンロード</li>
+		</ul>
+		<ul>
+			カテゴリ
+			<li>HTML</li>
+			<li>PHP</li>
+			<li>MySQL</li>
+			<li>JavaScript</li>
+		</ul>
+		
+		
