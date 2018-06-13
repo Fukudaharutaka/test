@@ -1,3 +1,5 @@
+写経
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -581,6 +583,392 @@ for(var num = 1; num <= 40; num++){
 	document.write("/");
 }
 
+
+
+JS 11
+
+document.write("for文　応用");
+
+document.write("<br>");
+
+for(var i =1; i <=10; i++){
+	if(i % 2 == 0){
+		document.write(i);
+	}
+}
+
+document.write("<br>");
+
+for(var a = 3;a <= 8; a++){
+	if(a> 5){
+		document.write(a);
+		document.write("<br>");
+	}
+}
+
+document.write("<br>");
+
+for(var b = 1; b <=9; b++){
+	for(var c =1; c<=9;c++){
+		document.write(b * c + "/");
+	}
+	document.write("→" + b + "の段<br>");
+}
+
+document.write("<br>");
+
+for(var star1 =1 ;star1 <= 5; star1++){
+	for(var star2 =1; star2 <= 5; star2++){
+		document.write("★");
+	}document.write("<br>");
+}
+
+document.write("<br>");
+
+for(var month=1; month <= 12; month++){
+	document.write( month + "月:");
+	for(var day =1; day <= 30; day++){
+		document.write(day + "日/");
+	}
+	document.write("<br><br>");
+}
+
+document.write("<br>");
+
+for(var num=10; num >= 0; num--){
+	if(num == 0){
+		document.write("終了！" + "<br>");}
+	else{
+		document.write(num + "<br>");
+	}
+}
+
+document.write("<br>");
+
+for(no1=0; no1 < 5; no1++){
+	for(var no2 =0; no2<=5; no2++){
+		if(no2 % 2 ==0){document.write("★");}
+else{document.write("☆");}
+	}
+	document.write("<br>");
+}
+
+document.write("<br>");
+
+for(var xyz =1; xyz < 30; xyz++){
+	if(xyz % 2 ==0){document.write("2の倍数");}
+	else if(xyz % 3 == 0){document.write("3の倍数");}
+	else{document.write(xyz);}
+	document.write("<br>");
+}
+
+document.write("<br>");
+
+
+JS 12
+var i = 1; while(i <=20){document.write(i);i++;document.write("<br>");}
+
+
+document.write("<br>");
+
+var a = 10;
+while(a <= 30){document.write( a + "<br>");a++;}
+
+
+document.write("<br>");
+
+var b = 20;
+while(b>=10){
+	document.write(b+"<br>");b--;}
+
+
+document.write("<br>");
+
+var c =1;while(c <= 10){document.write(c + "<br>");c+=2;}
+
+document.write("<br>");
+
+var d = 30;
+while(d>5){document.write(d+"<br>");d-=3;}
+
+document.write("<br>");
+
+var name = 1;
+while(name < 5){document.write("Tanaka" + "<br>");name++;}
+
+document.write("<br>");
+
+var abc = 1;
+while(abc <= 10){
+	if(abc % 2 == 0){document.write(abc + "<br>");}
+	abc++;}
+
+document.write("<br>");
+
+var def = 30;
+while(def >=1){if(def % 3 == 0){document.write(def + "<br>");}def--;}
+
+document.write("<br>");
+
+
+
+
+JS13
+
+
+var myoji =["高木","田中","山本"];
+document.write(myoji);
+
+document.write("<br>");
+
+var color =["赤","白","黒"];
+document.write(color);
+document.write("<br>");
+document.write(color[0]);
+document.write(color[2]);
+document.write(color[1]);
+
+document.write("<br>");
+
+var color =["No1","No2","No3"];
+delete color[0];
+document.write(color);
+
+document.write("<br>");
+
+var pre1 =["東京","神奈川","埼玉"];
+pre1[3]="千葉";
+document.write(pre1);
+
+document.write("<br>");
+
+var pre2=["東京","神奈川","埼玉"];
+delete pre2[0];
+pre2[0]="千葉";
+document.write(pre2);
+
+document.write("<br>");
+
+var month =["１月","２月","３月"];
+month[2]="誕生日";
+document.write(month);
+document.write(month[2]);
+
+document.write("<br>");
+
+var myoji={"A組":"田中","B組":"高橋","C組":"斉藤"};
+document.write(myoji["A組"]);
+
+document.write("<br>");
+
+var number={"1番":"佐藤","2番":"山田","3番":"斉藤"};
+document.write(number["1番"]);
+
+document.write("<br>");
+
+
+
+JS 14
+
+var myoji=["田中","高橋","斉藤"];
+myoji.unshift("鈴木");
+document.write(myoji);
+
+document.write("<br>");
+
+var abc=["高知","愛媛","香川"];
+abc.unshift("徳島");
+document.write(abc);
+
+document.write("<br>");
+
+var xyz1=["名前","住所","電話番号"];
+xyz1.push("アドレス");
+document.write(xyz1);
+
+document.write("<br>");
+
+var rech=["good","bad","nice"];
+rech.push("lucky");
+document.write(rech);
+
+document.write("<br>");
+
+var xyz2=["名前","住所","電話番号"];
+xyz2.pop();
+document.write(xyz2);
+
+document.write("<br>");
+
+var def=["関東","東北","九州","四国"];
+def.pop();
+document.write(def);
+
+document.write("<br>");
+
+var myoji=["田中","高橋","斉藤"];
+document.write(myoji.slice(0,2));
+
+document.write("<br>");
+
+var age =[18, 26, 33, 41, 50];
+document.write(age.slice(1,4));
+
+document.write("<br>");
+
+
+JS 15
+
+function totalPrice(price,tax=1.08, haiso=400){return(price + haiso)*tax; }
+document.write(totalPrice(300)+"<br>");
+document.write(totalPrice(450)+"<br>");
+
+document.write("<br>");
+
+
+function nameHello(name){return name + "さん。こんにちは";}
+
+document.write(nameHello("高橋"));
+document.write("<br>");
+document.write(nameHello("鈴木"));
+document.write("<br>");
+
+document.write("<br>");
+
+
+function juusho(abc){return abc + "出身の方";}
+
+document.write(juusho("東京"));
+document.write("<br>");
+document.write(juusho("神奈川"));
+document.write("<br>");
+document.write(juusho("大阪"));
+document.write("<br>");
+
+document.write("<br>");
+
+function test(num){return "あなたの点数は" + num + "点です。";}
+
+document.write(test(90));
+document.write("<br>");
+document.write(test(88));
+document.write("<br>");
+document.write(test(79));
+document.write("<br>");
+
+document.write("<br>");
+
+
+function oshirase(num){return "会員Noは" + num + "です。";}
+
+document.write(oshirase(1022));
+document.write("<br>");
+document.write(oshirase(1199));
+document.write("<br>");
+document.write(oshirase(2047));
+document.write("<br>");
+
+document.write("<br>");
+
+
+
+・JS演習１
+
+document.write("JavaScript演習１"+"<br>");
+
+document.write("問１"+"<br>");
+for(var a=1; a < 6;a++){document.write("★");}
+
+
+document.write("<br><br>");
+
+
+document.write("問２"+"<br>");
+for(var b=1; b < 3; b++){
+	for(var b2=1; b2 < 4; b2++){document.write("★");}
+document.write("<br>");
+}
+
+
+document.write("<br><br>");
+
+
+
+document.write("問3"+"<br>");
+for(var c = 1; c <3; c++){
+	for(var c2 =1; c2<6; c2++){document.write("☆");}
+	document.write("<br>");
+}
+
+
+document.write("<br><br>");
+document.write("問4"+"<br>");
+for(var d=10;d>6;d--){
+	for(var d2=1;d2<6;d2++){
+		document.write("★");
+	}
+		document.write("<br>");
+}
+
+
+document.write("<br><br>");
+document.write("問5"+"<br>");
+for(var e=1;e<5;e++){
+	for(var e2=1; e2<4; e2++){
+		document.write("★");
+	}document.write("<br>");
+}
+
+
+document.write("<br><br>");
+document.write("問6"+"<br>");
+for(var f=1; f<4; f++){
+	for(f2=1; f2<4; f2++){
+		if(f2 % 2 ==0){document.write("☆");}
+	else(document.write("★"));}
+document.write("<br>");}
+
+
+
+document.write("<br><br>");
+document.write("問7"+"<br>");
+for(var g=1; g<5; g++){
+	for(g2=1; g2<6; g2++){
+		if(g2 % 2 ==0){document.write("☆");}
+	else(document.write("★"));}
+document.write("<br>");}
+
+
+document.write("<br><br>");
+document.write("問8"+"<br>");
+
+for(var h=1; h < 6; h++){
+	for(var h2=0; h2 < h; h2++){document.write("★");}
+document.write("<br>");}
+
+
+
+
+
+・JS演習２・・・関数・・・
+
+
+function ennomenseki(hankei,enshuuritsu=3.14){
+	
+	return hankei*hankei*enshuuritsu ;}
+
+document.write(ennomenseki(5)+"<br>");
+document.write(ennomenseki(7)+"<br>");
+document.write(ennomenseki(10)+"<br>");
+
+
+function 合計金額(大人,子供,大人料金=500,子供料金=200){
+	return (大人*大人料金)+(子供*子供料金);
+}
+
+document.write("Aグループの合計金額"+合計金額(2,4)+"円です。<br>");
+document.write("Bグループの合計金額"+合計金額(1,5)+"円です。<br>");
+document.write("Cグループの合計金額"+合計金額(3,7)+"円です。<br>");
 
 
 
