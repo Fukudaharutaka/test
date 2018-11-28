@@ -69,7 +69,7 @@
             <br>
             
 <?php
-    while ($row=$stmt->fetch()){        
+    while ($row = $stmt->fetch()){        
     echo'<div class="kiji">';
     echo"<h3>".$row['title']."</h3>";
     echo'<div class="contents">';
