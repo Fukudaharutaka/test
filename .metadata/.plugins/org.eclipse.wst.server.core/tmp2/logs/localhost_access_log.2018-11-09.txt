@@ -1,0 +1,17 @@
+127.0.0.1 - - [09/Nov/2018:21:22:44 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:22:45 +0900] "GET /ecsite/ HTTP/1.1" 404 1033
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:23:20 +0900] "GET /ecsite/ HTTP/1.1" 404 1033
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:29:38 +0900] "GET /ecsite/ HTTP/1.1" 404 1033
+127.0.0.1 - - [09/Nov/2018:21:44:31 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:44:35 +0900] "GET /ecsite/ HTTP/1.1" 200 1656
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:44:41 +0900] "POST /ecsite/HomeAction.action;jsessionid=9E39592F9EBB99F32D180A6F3FFD0242 HTTP/1.1" 200 2442
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:44:53 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 4321
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:44:53 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:45:43 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2244
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:49:14 +0900] "GET /ecsite/ HTTP/1.1" 200 1656
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:49:16 +0900] "POST /ecsite/HomeAction.action;jsessionid=993AB921D818B2F395AAFD1F57F5EA5D HTTP/1.1" 200 2442
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:50:46 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 4321
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:50:48 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2244
+127.0.0.1 - - [09/Nov/2018:21:57:41 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:57:43 +0900] "GET /WebProj5/ HTTP/1.1" 200 2308
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:21:57:49 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=C15678D859BF86EAF46B0E192B699C5E HTTP/1.1" 200 9436
